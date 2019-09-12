@@ -1,5 +1,5 @@
-#fname = input("Enter file name: ")
-fh = open("/home/aldon/Desktop/assignment 7.2/short.txt")
+fname = input("Enter file name: ")
+fh = open(fname)
 count=(0)
 total=(0)
 for line in fh:
